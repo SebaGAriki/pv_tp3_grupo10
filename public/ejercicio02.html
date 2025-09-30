@@ -3,16 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Registro de Mascotas</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    form { margin-bottom: 20px; }
-    label { display: block; margin-top: 10px; }
-    .mascota { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
-    .mascota button { margin-top: 10px; background: red; color: white; border: none; padding: 5px; cursor: pointer; }
-  </style>
+  <link rel="stylesheet" href="../src/css/ejercicio02.css">
+  
 </head>
 <body>
-
+  <a class="volver"  href="./index.html">VOLVER ATRAS</a>
   <h1>Clínica Veterinaria - Registro de Mascotas</h1>
 
   <form id="formularioMascota">
@@ -50,11 +45,14 @@
   <div id="listadoMascotas"></div>
 
   <h3>Estadísticas</h3>
+
   <p>Total de mascotas: <span id="total"></span></p>
   <p>Vacunadas: <span id="vacunadas"></span></p>
   <p>No vacunadas: <span id="noVacunadas"></span></p>
 
   <script type="module" src="../src/ejercicio02/ejercicio02.js"></script>
+
+  
 
 </body>
 </html>
